@@ -1,0 +1,72 @@
+.streams-page{
+    .container{
+        background-color: #27292a;
+        padding: 3rem;
+        border-radius: 3rem;
+        @media(max-width:767px)
+        {
+            padding: 1rem;
+        }
+        .row{
+        .right{
+            background-color: $main-color;
+            padding: 3rem;
+            border-radius: 3rem;
+            .box{
+                border-bottom: 1px solid rgba(102,102,102,.2);
+                .row{
+                        gap: 0.5rem;
+
+                    .col{
+                        padding: 1rem 0 1.3rem;
+                    &.first{
+                        display: flex;
+                        align-items: center;
+                        gap: .5rem;
+                        img{
+                            border-radius: 50%;
+                            @media (max-width:991px) {
+                                    max-width: 4rem;
+                            }
+                        }
+                        span{
+                            color: #fff;
+                        }
+                    }
+                    &.second{
+                        display: flex;
+                        align-items: center;
+                        gap: .5rem;
+                        svg{
+                            color: #fff;
+                            background-color: $secondery-color;
+                            border-radius: 50%;
+                            width: 20px;
+                            height: 20px;
+                        }
+                        span{
+                            color: $secondery-color;
+                        }
+                    }
+                    button{
+                        padding: 0.5rem 1.8rem !important;
+                         color: #fff !important;
+                         &:hover{
+                            color: $secondery-color !important;
+                         }
+                    }
+                }
+            }
+            }
+        }
+    }
+        .popular-section{
+            margin: 3rem 0;
+            .col{
+                flex: 0 0 auto;
+                 width: 25%;
+              
+            }
+        }
+    }
+}

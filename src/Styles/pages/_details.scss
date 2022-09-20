@@ -1,0 +1,215 @@
+.details-page{
+    .container{
+        background-color: #27292a;
+        padding: 3rem;
+        border-radius: 3rem;
+        @media (max-width:767px){padding: 1rem;}
+        .images-section{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3rem;
+            @media (max-width:991px)
+            {
+                flex-direction: column;
+            }
+            gap: 3rem;
+            img{
+                border-radius: 3rem;
+             height: 300px;
+            @media (max-width:991px)
+{
+    width: 100%;
+}
+            }
+            .right{
+                width: 70%;
+                position: relative;
+            @media (max-width:991px)
+{
+    width: 100%;
+}
+                img{
+                    width: 100%;
+                }
+                svg{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    background-color: #fff;
+                    color: $secondery-color;
+                    transform: translate(-50%,-50%);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+        > h2{
+            color: #fff;
+            text-align: center;
+            margin: 3rem 0;
+        }
+        .fortnight-details{
+            background-color: $main-color;
+            border-radius: 3rem;padding: 3rem;
+            @media(max-width:767px){
+                padding: 1rem;
+            }
+            .upper-section{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+                margin-bottom: 2rem;
+                @media (max-width:991px){grid-template-columns: 1fr;}
+                > div {
+                    background-color: #27292a;
+                    padding: 2rem;
+                    border-radius: 2rem;
+                    color: #fff;
+                }
+                .left{
+                    display: flex;
+                    justify-content: space-between;
+                    h3{
+                        font-size: 20px;
+
+                    }
+                    span{
+                        color: $grey-color;
+                    }
+                    div
+                    {
+                        &:last-of-type{
+                            display: flex;
+                            flex-direction: column;
+                            >div {
+                                display: flex;
+                                align-items: center;
+                                gap: .4rem;
+                                &.rate{
+                                    svg{
+                                        color: $icons-color;
+                                    }
+                                }
+                                &.download{
+                                    display: flex;
+                                    flex-direction: row;
+                                    svg{
+                                        color: $secondery-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .right{
+                    .col{
+                        &:first-of-type{
+                            svg{
+                                color: $icons-color;
+                            }
+                        }
+                        &:not(:first-of-type)
+                        {
+                            svg{
+                                color: $secondery-color;
+                            }
+                        }
+                    .box{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        
+                    }
+                    
+                }
+                }
+                   
+            }
+            >.row {
+                    @media (max-width:991px)
+                    {
+                        gap: 2rem;
+                    }
+                    img{
+                        border-radius: 2rem;
+                        width: 100%;
+                    }
+            }
+            > p{
+                color: $grey-color;
+                margin: 2rem 0;
+                font-size: 18px;
+            }
+            >button{
+                width: 100%;
+                background-color: transparent !important;
+                color: $secondery-color !important;
+                border: 1px solid $secondery-color;
+            }
+
+        }
+        .other-realted-games{
+            background-color: $main-color;
+            padding: 3rem;
+            border-radius: 3rem;
+            margin: 2rem 0;
+            @media(max-width:767px){
+                padding: 1rem;
+            }
+            .game-content{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid rgba(102,102,102,.2);
+                    padding: 1rem 0;
+                    gap: 4rem;
+                    @media (max-width:767px){flex-direction: column;}
+                    li{
+                        color: #fff;
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        flex: 1;
+                        @media (max-width:767px){width: 100%;}
+                        .image-info{
+                            display: flex;
+                            gap: 1rem;
+                            img{
+                            border-radius: 2rem;
+                        }
+                    }
+                        h2,h3{
+                            font-size: 18px;
+                        }
+                       &:first-of-type span,&:nth-of-type(2) .row .col:last-of-type span{
+                        
+                            color: $grey-color;
+                        
+                       }
+                       .icons-container{
+                         .rate {
+
+                            svg{
+                                color: $icons-color;
+                            }
+                        }
+                        svg{
+                            margin-right: .3rem;
+                        }
+                        .download{
+                            svg{
+                                color: $secondery-color;
+                            }
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
