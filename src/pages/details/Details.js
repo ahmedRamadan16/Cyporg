@@ -9,9 +9,7 @@ import { RiGamepadLine } from "react-icons/ri";
 import DetailsImg1 from "../../images/details-01.jpg";
 import DetailsImg2 from "../../images/details-02.jpg";
 import DetailsImg3 from "../../images/details-03.jpg";
-import Game01 from "../../images/game-01.jpg";
-import Game02 from "../../images/game-02.jpg";
-import Game03 from "../../images/game-03.jpg";
+
 import MainHead from "../../components/MainHead";
 import GameImg1 from "../../images/game-01.jpg";
 import GameImg2 from "../../images/game-02.jpg";
@@ -24,10 +22,10 @@ export default function Details() {
       <Container>
         <div className="images-section">
           <div className="left">
-            <img src={FeatureLeft} />
+            <img src={FeatureLeft} alt="FeatureLeft" />
           </div>
           <div className="right">
-            <img src={FeatureRight} />
+            <img src={FeatureRight} alt="FeatureRight" />
             <BsPlay />
           </div>
         </div>
@@ -81,15 +79,15 @@ export default function Details() {
           </div>
           <Row>
             <Col lg={"4"} md={"12"}>
-              <img src={DetailsImg1} />
+              <img src={DetailsImg1} alt="DetailsImg1" />
             </Col>
 
             <Col lg={"4"} md={"12"}>
-              <img src={DetailsImg2} />
+              <img src={DetailsImg2} alt="DetailsImg2" />
             </Col>
 
             <Col lg={"4"} md={"12"}>
-              <img src={DetailsImg3} />
+              <img src={DetailsImg3} alt="DetailsImg3" />
             </Col>
           </Row>
           <p>
@@ -108,120 +106,120 @@ export default function Details() {
             <ul className="list-unstyled">
               <li>
                 <div className="image-info">
-                   <img src={GameImg1} />
-                <div className="info">
-                  <h2>Data 2</h2>
-                  <span>Sandbox</span>
-                </div>
+                  <img src={GameImg1} alt="game01" />
+                  <div className="info">
+                    <h2>Data 2</h2>
+                    <span>Sandbox</span>
+                  </div>
                 </div>
                 <div className="icons-container">
-                <div className="rate">
-                      <AiTwotoneStar />
-                      <span>4.8</span>
-                    </div>
-                    <div className="download">
-                      <AiOutlineDownload />
-                      <span>2.3M</span>
-                    </div>
+                  <div className="rate">
+                    <AiTwotoneStar />
+                    <span>4.8</span>
+                  </div>
+                  <div className="download">
+                    <AiOutlineDownload />
+                    <span>2.3M</span>
+                  </div>
                 </div>
               </li>
               <li>
-              <div className="image-info">
-                   <img src={GameImg1} />
-                <div className="info">
-                  <h2>Data 2</h2>
-                  <span>Sandbox</span>
-                </div>
-                </div>
-                <div className="icons-container">
-                <div className="rate">
-                      <AiTwotoneStar />
-                      <span>4.8</span>
-                    </div>
-                    <div className="download">
-                      <AiOutlineDownload />
-                      <span>2.3M</span>
-                    </div>
-                </div>
-              </li>
-            </ul>
-            <ul className="list-unstyled">
-              <li>
-              <div className="image-info">
-                   <img src={GameImg1} />
-                <div className="info">
-                  <h2>Data 2</h2>
-                  <span>Sandbox</span>
-                </div>
+                <div className="image-info">
+                  <img src={GameImg2} alt="game02" />
+                  <div className="info">
+                    <h2>Data 2</h2>
+                    <span>Sandbox</span>
+                  </div>
                 </div>
                 <div className="icons-container">
-                <div className="rate">
-                      <AiTwotoneStar />
-                      <span>4.8</span>
-                    </div>
-                    <div className="download">
-                      <AiOutlineDownload />
-                      <span>2.3M</span>
-                    </div>
-                </div>
-              </li>
-              <li>
-              <div className="image-info">
-                   <img src={GameImg1} />
-                <div className="info">
-                  <h2>Data 2</h2>
-                  <span>Sandbox</span>
-                </div>
-                </div>
-                <div className="icons-container">
-                <div className="rate">
-                      <AiTwotoneStar />
-                      <span>4.8</span>
-                    </div>
-                    <div className="download">
-                      <AiOutlineDownload />
-                      <span>2.3M</span>
-                    </div>
+                  <div className="rate">
+                    <AiTwotoneStar />
+                    <span>4.8</span>
+                  </div>
+                  <div className="download">
+                    <AiOutlineDownload />
+                    <span>2.3M</span>
+                  </div>
                 </div>
               </li>
             </ul>
             <ul className="list-unstyled">
               <li>
-              <div className="image-info">
-                   <img src={GameImg1} />
-                <div className="info">
-                  <h2>Data 2</h2>
-                  <span>Sandbox</span>
-                </div>
+                <div className="image-info">
+                  <img src={GameImg3} alt="game03" />
+                  <div className="info">
+                    <h2>Data 2</h2>
+                    <span>Sandbox</span>
+                  </div>
                 </div>
                 <div className="icons-container">
-                <div className="rate">
-                      <AiTwotoneStar />
-                      <span>4.8</span>
-                    </div>
-                    <div className="download">
-                      <AiOutlineDownload />
-                      <span>2.3M</span>
-                    </div>
+                  <div className="rate">
+                    <AiTwotoneStar />
+                    <span>4.8</span>
+                  </div>
+                  <div className="download">
+                    <AiOutlineDownload />
+                    <span>2.3M</span>
+                  </div>
                 </div>
               </li>
               <li>
-              <div className="image-info">
-                   <img src={GameImg1} />
-                <div className="info">
-                  <h2>Data 2</h2>
-                  <span>Sandbox</span>
-                </div>
+                <div className="image-info">
+                  <img src={GameImg1} alt="game01" />
+                  <div className="info">
+                    <h2>Data 2</h2>
+                    <span>Sandbox</span>
+                  </div>
                 </div>
                 <div className="icons-container">
-                <div className="rate">
-                      <AiTwotoneStar />
-                      <span>4.8</span>
-                    </div>
-                    <div className="download">
-                      <AiOutlineDownload />
-                      <span>2.3M</span>
-                    </div>
+                  <div className="rate">
+                    <AiTwotoneStar />
+                    <span>4.8</span>
+                  </div>
+                  <div className="download">
+                    <AiOutlineDownload />
+                    <span>2.3M</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul className="list-unstyled">
+              <li>
+                <div className="image-info">
+                  <img src={GameImg2} alt="game02" />
+                  <div className="info">
+                    <h2>Data 2</h2>
+                    <span>Sandbox</span>
+                  </div>
+                </div>
+                <div className="icons-container">
+                  <div className="rate">
+                    <AiTwotoneStar />
+                    <span>4.8</span>
+                  </div>
+                  <div className="download">
+                    <AiOutlineDownload />
+                    <span>2.3M</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="image-info">
+                  <img src={GameImg3} alt="game03" />
+                  <div className="info">
+                    <h2>Data 2</h2>
+                    <span>Sandbox</span>
+                  </div>
+                </div>
+                <div className="icons-container">
+                  <div className="rate">
+                    <AiTwotoneStar />
+                    <span>4.8</span>
+                  </div>
+                  <div className="download">
+                    <AiOutlineDownload />
+                    <span>2.3M</span>
+                  </div>
                 </div>
               </li>
             </ul>

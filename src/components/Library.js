@@ -12,7 +12,7 @@ export default function Library() {
         <MainHead title="Your Gaming" span="Library" />
 
         <div className="content">
-        <img src={GameImg1} />
+          <img src={GameImg1} alt="game01" />
           <ul className="list-unstyled">
             <li>
               <div className="info">
@@ -38,7 +38,7 @@ export default function Library() {
           </ul>
         </div>
         <div className="content">
-        <img src={GameImg2} />
+          <img src={GameImg2} alt="game02" />
 
           <ul className="list-unstyled">
             <li>
@@ -65,7 +65,7 @@ export default function Library() {
           </ul>
         </div>
         <div className="content">
-        <img src={GameImg3} />
+          <img src={GameImg3} alt="game03" />
 
           <ul className="list-unstyled">
             <li>
