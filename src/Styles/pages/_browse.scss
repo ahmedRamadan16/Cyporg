@@ -1,99 +1,96 @@
-.featured-game{
-    .container{
-        background-color: #27292a;
-        border-radius: 3rem;
-        padding: 2rem;
-    
-        @media (max-width:767px)
-        {
-            padding: 1rem ;
-        }
-    .right{
-        background-color: $main-color;
-        padding: 3rem 3rem 2rem;
-        border-radius: 3rem;
-        .box{
-            border-bottom: 1px solid rgba(102,102,102,.2);
-            color: #fff;
-            margin-bottom: 1rem;
-            padding: 1rem 0;
-            .col{
-                &:last-of-type{
-                    display: flex;
-                    align-items: flex-end;
-                    svg{
-                        background-color: #27292a;
-                        color: $secondery-color;
-                        width: 50px;
-                        height: 50px;
-                        padding: 0.7rem;
-                        
-                        border-radius: 50%;
-                    }
-                }
-            }
-            img{
-                border-radius: 2rem;
-            }
-            h2{
-                font-size: 16px;
-            }
-            .icons{
-                display: flex;
-                align-items: center;
-                margin-top: 1rem;
-                gap: 1rem;
-                .icon-rate,.icon-download{
-                    display: flex;
-                    align-items: center;
-                    gap: 3px;
-                    svg{
-                        color: $icons-color;
-                    }
-                }
-            }
-          
-        }
-        .games-link {
-            color: $secondery-color !important;
-            font-size: 20px;
-            text-align: center;
-            display: block;
-        }
+.featured-game {
+  .container {
+    background-color: #27292a;
+    border-radius: 3rem;
+    padding: 2rem;
+
+    @media (max-width: 767px) {
+      padding: 1rem;
     }
-   .live-stream{
-    margin: 4rem 0;
-    position: relative;
-    padding-bottom: 5rem;
-    .mainHead{
+    .right {
+      background-color: $main-color;
+      padding: 3rem 3rem 2rem;
+      border-radius: 3rem;
+      .box {
+        border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+        color: #fff;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+        .col {
+          &:last-of-type {
+            display: flex;
+            align-items: flex-end;
+            svg {
+              background-color: #27292a;
+              color: $secondery-color;
+              width: 50px;
+              height: 50px;
+              padding: 0.7rem;
+
+              border-radius: 50%;
+            }
+          }
+        }
+        img {
+          border-radius: 2rem;
+        }
+        h2 {
+          font-size: 16px;
+        }
+        .icons {
+          display: flex;
+          align-items: center;
+          margin-top: 1rem;
+          gap: 1rem;
+          .icon-rate,
+          .icon-download {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            svg {
+              color: $icons-color;
+            }
+          }
+        }
+      }
+      .games-link {
+        color: $secondery-color !important;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+      }
+    }
+    .live-stream {
+      margin: 4rem 0;
+      position: relative;
+      padding-bottom: 5rem;
+      .mainHead {
         align-items: center;
         justify-content: center;
-        
-    }
-    .box{
-        border: 1px solid rgba(102,102,102,.2);
+      }
+      .box {
+        border: 1px solid rgba(102, 102, 102, 0.2);
         border-radius: 2rem;
         padding: 2rem;
-        img{
-            border-radius: 50%;
+        img {
+          border-radius: 50%;
         }
-        h2{
-            color: #fff;
-            margin: 1rem 0;
-            font-size: 18px;
+        h2 {
+          color: #fff;
+          margin: 1rem 0;
+          font-size: 18px;
         }
-        p{
-            color: $grey-color;
-            line-height: 1.7;
+        p {
+          color: $grey-color;
+          line-height: 1.7;
         }
-    }
-    button{
+      }
+      button {
         position: absolute;
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
+      }
     }
-   }
-  
+  }
 }
-    }

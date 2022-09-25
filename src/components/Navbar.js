@@ -1,10 +1,8 @@
-import Container from "react-bootstrap/Container";
+import { Container, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Logo from "../images/logo.png";
 import ProfileImg from "../images/profile-header.jpg";
 import { BiSearch } from "react-icons/bi";
-import { Col } from "react-bootstrap";
-import Row from "react-bootstrap/Row";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 export default function Navbar() {
