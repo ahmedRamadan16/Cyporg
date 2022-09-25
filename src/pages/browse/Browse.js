@@ -1,4 +1,4 @@
-import React,{ useRef, useState } from 'react'
+import React from 'react'
 import { Container,Row ,Col} from 'react-bootstrap'
 import MainHead from '../../components/MainHead'
 
@@ -57,7 +57,7 @@ export default function Browse() {
             <div className='box'>
               <Row>
                 <Col>
-                  <img src={img1} />
+                  <img src={img1} alt=""/>
 
                 </Col>
                 <Col>
@@ -86,7 +86,7 @@ export default function Browse() {
             <div className='box'>
               <Row>
                 <Col>
-                  <img src={img2} />
+                  <img src={img2} alt=""/>
 
                 </Col>
                 <Col>
@@ -115,7 +115,7 @@ export default function Browse() {
             <div className='box'>
               <Row>
                 <Col>
-                  <img src={img3} />
+                  <img src={img3} alt="" />
 
                 </Col>
                 <Col>
@@ -151,7 +151,7 @@ export default function Browse() {
         <Row>
           <Col lg={'4'} md={'6'} sm={'12'}>
             <div className='box'>
-              <img src={LiveStreamImg1}/>
+              <img src={LiveStreamImg1} alt=""/>
               <h2>Go To Your Profile</h2>
               <p>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.
 
@@ -160,7 +160,7 @@ export default function Browse() {
           </Col>
           <Col lg={'4'} md={'6'} sm={'12'}>
             <div className='box'>
-              <img src={LiveStreamImg2}/>
+              <img src={LiveStreamImg2} alt=""/>
               <h2>Live Stream Button
 </h2>
               <p>If you wish to support us, you can make a small contribution via PayPal to info [at] templatemo.com
@@ -172,7 +172,7 @@ export default function Browse() {
           </Col>
           <Col lg={'4'} md={'6'} sm={'12'}>
             <div className='box'>
-              <img src={LiveStreamImg3}/>
+              <img src={LiveStreamImg3} alt=""/>
               <h2>You Are Live
 </h2>
               <p>You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.
